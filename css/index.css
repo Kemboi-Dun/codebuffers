@@ -219,12 +219,12 @@ footer span {
   .social-icons {
     margin: 12px;
   }
-  footer {
-    margin-top: 10px;
+  footer span {
+    margin-bottom: 10px;
   }
 }
 /*tablet*/
-@media only screen and (min-device-width: 480px) and (max-device-width: 1287px) {
+@media only screen and (max-device-width: 1287px) {
   body {
     overflow: hidden;
     margin: 0;
