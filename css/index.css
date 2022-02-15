@@ -217,14 +217,15 @@ footer span {
     margin: 8px;
   }
   .social-icons {
-    margin: 12px;
+    margin-bottom: 12px;
   }
-  footer span {
-    margin-bottom: 10px;
+  .social-icons p {
+    margin-bottom: 12px;
+    padding-bottom: 12px;
   }
 }
 /*tablet*/
-@media only screen and (max-device-width: 1287px) {
+@media only screen and (min-device-width: 480px) and (max-device-width: 1287px) {
   body {
     overflow: hidden;
     margin: 0;
