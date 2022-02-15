@@ -114,7 +114,7 @@ nav ul li a:hover::after {
 
 /*responsivenes*/
 /*smart phones*/
-@media only screen and (min-device-width: 280px) and (max-device-width: 480px) {
+@media only screen and (max-device-width: 480px) {
   body {
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), transparent),
       url(../images/backg.png);
@@ -170,7 +170,7 @@ nav ul li a:hover::after {
   }
 }
 /*tablet*/
-@media only screen and (min-device-width: 480px) and (max-device-width: 1024px) {
+@media only screen and (max-device-width: 1024px) {
   /*about section*/
   .section {
     width: 100%;
